@@ -5,16 +5,18 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpeg");
+  background-image: url("../img/intro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  max-height: 600px;
+  overflow: hidden;
 }
 
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
+.Experiencia .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +25,7 @@ body {
 
 /* Contacto */
 
-#Contacto form label {
+.Contacto form label {
   font-weight: 700;
   color: #373a3c;
 }
@@ -39,18 +41,173 @@ body {
 
 }
 
-.mis_trabajos {
-    background-color: #560935; /* Elige el color que prefieras */
+.experiencia {
+    background-color: #0a2351;
+    margin: 0;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
-.btn-contacto {
-    background-color: #560935;
-    border-color: #560935;
+.experiencia h2, .experiencia p.text-light-gray {
+    color: white;
+}
+
+.experiencia .card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.experiencia .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.btn-info {
+    background-color: #0a2351;
+    border-color: #0a2351;
     color: #fff;
+}
+
+.btn-info:hover {
+    background-color: #0d2e6b;
+    border-color: #0d2e6b;
+    color: #fff;
+}
+
+.portfolio-section {
+    background-color: #f5f5f5;
+    margin: 0;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.portfolio-card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-card .card-img-top {
+    height: 160px;
+    object-fit: cover;
+}
+
+.btn-outline-info {
+    color: #0a2351;
+    border-color: #0a2351;
+}
+
+.btn-outline-info:hover {
+    background-color: #0a2351;
+    color: white;
 }
 
 .text-light-gray {
     color: #e0e0e0;
 }
 
+.year-study {
+    font-family: 'Courier New', monospace;
+    color: #560935;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.place-study {
+    font-family: 'Georgia', serif;
+    color: #333;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+.grade-study {
+    font-family: 'Arial', sans-serif;
+    color: #0a6e31;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.desc-study {
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.experience-card {
+    border-left: 3px solid #0d6efd;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.company-logo {
+    max-height: 40px;
+    margin-bottom: 15px;
+}
+
+.job-title {
+    color: #212529;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.company-name {
+    color: #0d6efd;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.job-duration {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.job-location {
+    color: #495057;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.job-description {
+    color: #495057;
+    margin-bottom: 5px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.educacion-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
 
